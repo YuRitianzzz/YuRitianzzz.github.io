@@ -1,27 +1,32 @@
-*~
-~*
-*.diff
-*.patch
-*.bak
+# OS X
 .DS_Store
-*.swp
-*.swo
-*.log
-*.log.*
 
-/.vscode/
-
-node_modules/
-.sass-cache/
-
-/.bundle/
-/vendor/bundle
-*.gem
-
-yarn.lock
-package-lock.json
-Gemfile.lock
-
-_site/
+# Jekyll build
+/_site/
 .jekyll-metadata
-.jekyll-cache/
+#Gemfile.lock
+
+# webstorm
+.idea/
+
+# others
+*.swp
+package-lock.json
+
+# site build
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+vendor
+Gemfile.lock
+node_modules
