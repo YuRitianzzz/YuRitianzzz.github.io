@@ -153,11 +153,11 @@ yat:
 #   - tags.html
 #   - about.md
 
-# Page default value
-# defaults:
-#   home:
-#     heading: "YaHooooooooooo~~"
-#     subheading: "Welcome to my house~"
+ Page default value
+ defaults:
+   home:
+     heading: "YaHooooooooooo~~"
+     subheading: "Welcome to my house~"
 #     banner: "Your image url"
 
 # Banner default settings
